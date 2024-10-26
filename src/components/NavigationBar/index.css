@@ -1,0 +1,19 @@
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  border-radius: 12px;
+}
+
+.active-nav {
+  background-color: #d7dfe9;
+  font-size: bold;
+}
+
+.dark-active-nav {
+  background-color: #606060;
+  font-size: bold;
+}

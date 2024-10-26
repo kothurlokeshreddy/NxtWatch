@@ -1,0 +1,49 @@
+.gaming-video-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.gaming-video-card img {
+  height: 250px;
+  width: 200px;
+}
+
+.gaming-card-text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.gaming-card-text-content h2 {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 376px) {
+  .gaming-video-card {
+    width: 150px;
+    height: 200px;
+  }
+  .gaming-video-card img {
+    height: 220px;
+    width: 110px;
+  }
+  .gaming-card-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .gaming-card-text-content h2 {
+    font-size: 15px;
+    align-self: flex-start;
+  }
+  .gaming-card-text-content p {
+    font-size: 14px;
+    margin-top: 2px;
+    align-self: flex-start;
+  }
+}

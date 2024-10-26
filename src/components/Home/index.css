@@ -1,0 +1,128 @@
+.home-container {
+  display: flex;
+}
+
+.home-videos-ad-container {
+  width: 90vw;
+}
+
+.ad-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 100vw;
+  padding: 20px 0px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-container img {
+  height: 40px;
+}
+
+.ad-container p {
+  font-size: 24px;
+}
+
+.premium-btn {
+  height: 36px;
+  box-shadow: 0px 2px 4px 0px;
+}
+
+.close-btn {
+  margin-right: 30px;
+  cursor: pointer;
+  outline: none;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px;
+}
+
+.close {
+  height: 20px;
+  width: 20px;
+}
+
+.search-videos-container {
+  background-color: #ebebeb;
+  padding: 20px;
+  width: 100%;
+}
+
+.search-input-icon {
+  display: flex;
+}
+
+.search-input-icon input {
+  height: 35px;
+  width: 300px;
+  padding: 10px;
+  cursor: initial;
+  outline: none;
+}
+
+.search-input-icon button {
+  width: 60px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 376px) {
+  .home-container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .home-videos-ad-container {
+    width: 100vw;
+  }
+  .ad-container {
+    display: flex;
+    height: 190px;
+    width: 100%;
+    align-self: center;
+    padding-bottom: 0;
+  }
+  .ad-container-details img {
+    height: 25px;
+  }
+  .ad-container-details p {
+    font-size: 17px;
+  }
+  .close {
+    height: 15px;
+  }
+  .close-btn {
+    margin-right: auto;
+  }
+  .search-videos-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .search-input-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 768px) {
+  .home-videos-ad-container {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ad-container {
+    width: 100%;
+  }
+  .home-videos-ad-container {
+    margin-top: 84px;
+    margin-left: 250px;
+  }
+  .search-videos-container {
+    height: 100%;
+  }
+  .search-input-icon {
+    margin-bottom: 20px;
+  }
+}

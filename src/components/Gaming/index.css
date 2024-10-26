@@ -1,0 +1,18 @@
+.gaming-videos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+@media screen and (max-width: 376px) {
+  .gaming-videos-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+}
